@@ -1,8 +1,22 @@
-body {
-    background-color: #FFF2F2;
-    color: #7886C7;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-strong {
-    color: #2D336B;
+body {
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    height: 100vh;
+}
+
+.titulo-destaque {
+    color: #267bca;
+}
+
+.apresentacao {
+    margin: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
